@@ -17,6 +17,7 @@ ggplot(vowels, aes(x=F2, y=F1, fill=Vowel)) +
     stat_ellipse(linetype = 2, size = 0.1, level = 0.5)
     labs(x = "F2 (Hz)", y = "F1 (Hz)", title = "Vowel Chart")
 ```
+
 ![alt text]([http://url/to/img.png](https://github.com/zabub/Assignment-1/blob/main/Vowel%20Plot%201.svg))
 
 ## Plot 2
@@ -75,4 +76,6 @@ iDensity4=data.matrix(iDensity3, rownames.force=NA)
 plot_ly(z=iDensity4) %>% add_surface()
 ```
 plot:
+
 ![alt text]([http://url/to/img.png](https://github.com/zabub/Assignment-1/blob/main/Vowel%20Plot%201.svg))
+
