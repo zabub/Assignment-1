@@ -37,6 +37,9 @@ ggplot(vowels, aes(x=F2, y=F1, fill=Vowel)) +
     labs(x = "F2 (Hz)", y = "F1 (Hz)", title = "Vowel Chart") + 
     geom_density_2d(size = 0.25, colour = "black")
 ```
+Plot:
+
+![Vowel Plot 2](https://github.com/zabub/Assignment-1/blob/main/Vowel%20Plot%202.svg)
 
 ## Plot 3
 code:
@@ -46,6 +49,10 @@ ggplot(vowels, aes(x=F2, y=F1,fill=Vowel)) +
     labs(x="F2 (Hz)", y="F1 (Hz)", title ="Vowel Chart") + 
     stat_density_2d(aes(fill = ..level..), bins=15)
 ```
+Plot:
+
+![Vowel Plot 3](https://github.com/zabub/Assignment-1/blob/main/Vowel%20Plot%203.svg)
+
 
 ## Plot 4
 code:
@@ -55,6 +62,10 @@ ggplot(vowels, aes(x=F2, y=F1,fill=Vowel)) +
     labs(x="F2 (Hz)", y="F1 (Hz)", title ="Vowel Chart") + 
     stat_density_2d(aes(fill = ..level..), geom = "polygon")
 ```
+Plot:
+
+![Vowel Plot 4](https://github.com/zabub/Assignment-1/blob/main/Vowel%20Plot%204.svg)
+
 
 ## Plot 5
 code:
@@ -66,6 +77,10 @@ ggplot(vowels, aes(x=F2, y=F1,fill=Vowel)) +
     ylim(1100,200)+xlim(3500,600) +
     geom_mark_hull(concavity = 10,expand=-0.025,radius=0,aes(fill=Vowel))
 ```
+Plot:
+
+![Vowel Plot 5](https://github.com/zabub/Assignment-1/blob/main/Vowel%20Plot%205.svg)
+
 
 ## Plot 6
 code:
@@ -78,10 +93,9 @@ iDensity3=iDensity2[,-1:-2]
 iDensity4=data.matrix(iDensity3, rownames.force=NA)
 plot_ly(z=iDensity4) %>% add_surface()
 ```
-plot:
+Plot:
 
-![alt text](https://github.com/zabub/Assignment-1/blob/main/Vowel%20Plot%201.svg))
-
+![Vowel Plot 6](https://github.com/zabub/Assignment-1/blob/main/Vowel%20Plot%206.html)
 
 
 
