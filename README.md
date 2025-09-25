@@ -80,7 +80,8 @@ plot_ly(z=iDensity4) %>% add_surface()
 ```
 plot:
 
-![alt text]([http://url/to/img.png](https://github.com/zabub/Assignment-1/blob/main/Vowel%20Plot%201.svg))
+![alt text](https://github.com/zabub/Assignment-1/blob/main/Vowel%20Plot%201.svg))
+
 
 
 
