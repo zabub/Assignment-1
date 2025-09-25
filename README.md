@@ -4,7 +4,7 @@
 vowel plots
 
 ## Plot 1
-code:
+R code:
 ```
 library(readxl)
 vowels <- read_excel("Grad School/LING 349 - Comp Ling/Assignment #1/vowels.xlsx")
@@ -24,7 +24,7 @@ Plot:
 ![Vowel Plot 1](https://github.com/user-attachments/assets/05887fb6-be81-4799-8293-4e8270a55cc3)
 
 ## Plot 2
-code:
+R code:
 ```
 ggplot(vowels, aes(x=F2, y=F1, fill=Vowel)) +
     geom_text(aes(label=Vowel, color=Vowel)) + 
@@ -42,7 +42,7 @@ Plot:
 ![Vowel Plot 2](https://github.com/zabub/Assignment-1/blob/main/Vowel%20Plot%202.svg)
 
 ## Plot 3
-code:
+R code:
 ```
 ggplot(vowels, aes(x=F2, y=F1,fill=Vowel)) + 
     ylim(1100,200)+xlim(3500,600) + 
@@ -55,7 +55,7 @@ Plot:
 
 
 ## Plot 4
-code:
+R code:
 ```
 ggplot(vowels, aes(x=F2, y=F1,fill=Vowel)) + 
     ylim(1100,200)+xlim(3500,600) + 
@@ -68,7 +68,7 @@ Plot:
 
 
 ## Plot 5
-code:
+R code:
 ```
 library(concaveman)
 library(ggforce)
@@ -83,7 +83,7 @@ Plot:
 
 
 ## Plot 6
-code:
+R code:
 ```
 library(MASS)
 library(plotly)
@@ -96,6 +96,7 @@ plot_ly(z=iDensity4) %>% add_surface()
 Plot:
 
 ![Vowel Plot 6](https://github.com/zabub/Assignment-1/blob/main/Vowel%20Plot%206.html)
+
 
 
 
