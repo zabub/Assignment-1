@@ -1,4 +1,6 @@
-![Vowel Plot 1](https://github.com/user-attachments/assets/05887fb6-be81-4799-8293-4e8270a55cc3)# Assignment-1
+
+
+# Assignment-1
 vowel plots
 
 ## Plot 1
@@ -18,7 +20,7 @@ ggplot(vowels, aes(x=F2, y=F1, fill=Vowel)) +
     labs(x = "F2 (Hz)", y = "F1 (Hz)", title = "Vowel Chart")
 ```
 
-![alt text](http://url/to/img.png](https://github.com/zabub/Assignment-1/blob/main/Vowel%20Plot%201.svg)
+![Vowel Plot 1](https://github.com/user-attachments/assets/05887fb6-be81-4799-8293-4e8270a55cc3)vg)
 
 ## Plot 2
 code:
@@ -78,6 +80,7 @@ plot_ly(z=iDensity4) %>% add_surface()
 plot:
 
 ![alt text]([http://url/to/img.png](https://github.com/zabub/Assignment-1/blob/main/Vowel%20Plot%201.svg))
+
 
 
 
